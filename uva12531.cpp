@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int v,t;
+    while(cin >> v >> t)
+    {
+        if(v==0&&t==0)
+            printf("0\n");
+        else
+        printf("%d\n",2*v*t);
+    }
+    return 0;
+}
